@@ -5,23 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <div class="search">
-                <img>
+                <img src="images/magnify.svg" alt="An icon of a magnifying glass.">
+                <input type="search">
             </div>
             <div class="avatar">
-                <img>
-                <img>
+                <img src="images/bell-outline.svg" alt="A bell icon.">
+                <img src="images/vecteezy_hipster-chicken-avatar_.jpg" alt="An animated chicken with glasses.">
                 <p>Dobrin Andreev</p>
             </div>
             <div class="greeting">
-                <img>
-                <p>Hi there,</p>
-                <h1>Dobrin Andreev (@dobrqka)</h1>
+                <img src="images/vecteezy_hipster-chicken-avatar_.jpg" alt="An animated chicken avatar">
+                <p>Hi there, <br> <span>Dobrin Andreev (@dobrqka)</span></p>
             </div>
             <div class="controls">
                 <button>New</button>
@@ -30,38 +33,39 @@
             </div>
         </div>
         <div class="sidebar">
-            <img>
-            <h1>Dashboard</h1>
-            <img>
+            <img src="images/chicken.ico" alt="A chicken image">
+            <h3>Dashboard</h3>
+            <img src="images/home-variant-outline.svg" alt="An icon of a house.">
             <p>Home</p>
-            <img>
+            <img src="images/account-outline.svg" alt="An icon showing a person">
             <p>Profile</p>
-            <img>
+            <img src="images/message-outline.svg" alt="An icon of a message.">
             <p>Messages</p>
-            <img>
+            <img src="images/history.svg" alt="An icon of a clock.">
             <p>History</p>
-            <img>
+            <img src="images/file-multiple-outline.svg" alt="An icon of 2 documents.">
             <p>Tasks</p>
-            <img>
+            <img src="images/account-group-outline.svg" alt="An icon of multiple people.">
             <p>Communities</p>
-            <img>
+            <img src="images/cog-outline.svg" alt="A cog icon">
             <p>Settings</p>
-            <img>
+            <img src="images/chat-question-outline.svg" alt="A question mark icon.">
             <p>Support</p>
-            <img>
+            <img src="images/shield-lock-outline.svg" alt="An icon of a shield">
             <p>Privacy</p>
         </div>
         <div class="main-area">
             <div class="projects">
-                <h2>Your Projects</h2>
+                <h2 class="project-heading">Your Projects</h2>
                 <div class="project-box">
                     <h2>Super Cool Project</h2>
                     <p>Sed tempus ut lacus ut scelerisque. 
                         Suspendisse sollictudin nibh erat, id
                         facilisis felis accumsan nec.</p>
-                    <img>
-                    <img>
-                    <img>
+                    <div>
+                        <img src="images/star-outline.svg" alt="A star icon.">
+                        <img src="images/share-outline.svg" alt="A share icon">
+                    </div>
                 </div><div class="project-box">
                     <h2>Less Cool Project</h2>
                     <p>Nuliam condimentum ipsum ut lectus vehicula
@@ -70,17 +74,19 @@
                         purus, dignissum ut sapien in, varius
                         pellentesque lacus.
                     </p>
-                    <img>
-                    <img>
-                    <img>
+                    <div>
+                        <img src="images/star-outline.svg" alt="A star icon.">
+                        <img src="images/share-outline.svg" alt="A share icon">
+                    </div>
                 </div><div class="project-box">
                     <h2>Impossible App</h2>
                     <p>In hac habitasse platea dictumst. Vivamus
                         dictum rutrum arcu, a placerat velit sagittis id.
                     </p>
-                    <img>
-                    <img>
-                    <img>
+                    <div>
+                        <img src="images/star-outline.svg" alt="A star icon.">
+                        <img src="images/share-outline.svg" alt="A share icon">
+                    </div>
                 </div>
                 <div class="project-box">
                     <h2>Easy Peasy App</h2>
@@ -90,72 +96,85 @@
                         Curabitur dinigssim nisi in tortor commodo, ac bibendum 
                         magna tincidunt.
                     </p>
-                    <img>
-                    <img>
-                    <img>
+                    <div>
+                        <img src="images/star-outline.svg" alt="A star icon.">
+                        <img src="images/share-outline.svg" alt="A share icon">
+                    </div>
                 </div><div class="project-box">
                     <h2>Ad Blocker</h2>
                     <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae
                         metus vel, pharetra henderit felis. Aliquam sed
                         malesuada eros.
                     </p>
-                    <img>
-                    <img>
-                    <img>
+                    <div>
+                        <img src="images/star-outline.svg" alt="A star icon.">
+                        <img src="images/share-outline.svg" alt="A share icon">
+                    </div>
                 </div><div class="project-box">
                     <h2>Money Maker</h2>
                     <p>Praesent convalis, libero quis contue elementum, nunc
                         ante faucibus sapein, ac scelerisque tortor puris sagittis
                         amet ex. Pelientesque molis nec sem vel aliquam.
                     </p>
-                    <img>
-                    <img>
-                    <img>
+                    <div>
+                        <img src="images/star-outline.svg" alt="A star icon.">
+                        <img src="images/share-outline.svg" alt="A share icon">
+                    </div>
                 </div>
             </div>
-            <div class="announcements">
-                <div class="announcement">
-                    <h4>Site Maintenance</h4>
-                    <p>Vestibulum condimentum tellus lacus,
-                        in accumsan elit maximus ac. Donec
-                        henderit sodales congue...
-                    </p>
+            <div class="right-bar">
+                <div class="announcements">
+                    <h2>Announcements</h2>
+                    <div class="announcement-box">
+                        <div class="announcement">
+                            <h4>Site Maintenance</h4>
+                            <p>Vestibulum condimentum tellus lacus,
+                                in accumsan elit maximus ac. Donec
+                                henderit sodales congue...
+                            </p>
+                            <p></p>
+                        </div>
+                        <div class="announcement">
+                            <h4>Community Share Day</h4>
+                            <p>Nam vel lectus tincidunt, rutrum nulla
+                                eu, ornare libero. Aliquam dictum
+                                accumsan porttitor...
+                            </p>
+                            <p></p>
+                        </div>
+                        <div class="announcement">
+                            <h4>Updated Privacy Policy</h4>
+                            <p>Phasellus efficitur nisi eget elit
+                                conectetur, eget condimentum ante auctor.
+                                Cras fringilla sagittis sem in mattis...
+                            </p>
+                        </div>
+                    </div>  
                 </div>
-                <div class="announcement">
-                    <h4>Community Share Day</h4>
-                    <p>Nam vel lectus tincidunt, rutrum nulla
-                        eu, ornare libero. Aliquam dictum
-                        accumsan porttitor...
-                    </p>
-                </div>
-                <div class="announcement">
-                    <h4>Updated Privacy Policy</h4>
-                    <p>Phasellus efficitur nisi eget elit
-                        conectetur, eget condimentum ante auctor.
-                        Cras fringilla sagittis sem in mattis...
-                    </p>
-                </div>
-            </div>
-            <div class="trending">
-                <div class="trend-item">
-                    <img>
-                    <h3>@tegan</h3>
-                    <p>World Peace Builder</p>
-                </div>
-                <div class="trend-item">
-                    <img>
-                    <h3>@morgan</h3>
-                    <p>Super Cool Project</p>
-                </div>
-                <div class="trend-item">
-                    <img>
-                    <h3>@kendall</h3>
-                    <p>Life Changing App</p>
-                </div>
-                <div class="trend-item">
-                    <img>
-                    <h3>@alex</h3>
-                    <p>No Traffic Maker</p>
+                <div class="trending">
+                    <h2>Trending</h2>
+                    <div class="trend-items">
+                        <div class="trend-item">
+                            <img>
+                            <h3>@tegan</h3>
+                            <p>World Peace Builder</p>
+                        </div>
+                        <div class="trend-item">
+                            <img>
+                            <h3>@morgan</h3>
+                            <p>Super Cool Project</p>
+                        </div>
+                        <div class="trend-item">
+                            <img>
+                            <h3>@kendall</h3>
+                            <p>Life Changing App</p>
+                        </div>
+                        <div class="trend-item">
+                            <img>
+                            <h3>@alex</h3>
+                            <p>No Traffic Maker</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

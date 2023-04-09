@@ -227,7 +227,7 @@ input[type="search"] {
 .announcement p:nth-child(3):after {
     content: '';
     width: 70%;
-    left: 30%;
+    left: 15%;
     height: 2px;
     background: #450a0a;
     position: absolute;
